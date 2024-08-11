@@ -1,0 +1,98 @@
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    text-align: center; /* Center align navbar links */
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex; /* Display navbar items in a flex container */
+    justify-content: center; /* Center align navbar items */
+}
+
+.navbar li {
+    display: inline; /* Display navbar items inline */
+    list-style-type: none; /* Remove bullets from navbar items */
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #FDB9C8;
+}
+
+body {
+    background-color:#F8F4EC;
+  }
+
+  /* Style the container div */
+  .logout-container {
+    position: fixed;
+    top: 10px; /* Adjust top position */
+    right: 20px; /* Adjust right position */
+    z-index: 9999; /* Ensure it's above other elements */
+}
+
+/* Style the image button */
+.logout-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.logout-btn img {
+    width: 50px; /* Set the width */
+    height: 50px; /* Set the height */
+}
+
+.catebar {
+    background-color: #333;
+    overflow: hidden;
+    text-align: center; /* Center align navbar links */
+}
+
+.catebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex; /* Display navbar items in a flex container */
+    justify-content: center; /* Center align navbar items */
+}
+
+.catebar li {
+    display: inline; /* Display navbar items inline */
+    list-style-type: none; /* Remove bullets from navbar items */
+}
+
+.catebar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.catebar li a:hover {
+    background-color: #FDB9C8;
+}
+
+#product-list{
+    max-width:1500px;
+    width:95%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin:auto;
+}
+
